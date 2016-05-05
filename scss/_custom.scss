@@ -1,21 +1,23 @@
 div.cabecera{
 	margin-top:rem-calc(40);
 	margin-bottom:rem-calc(40);
+	text-transform:uppercase;
 }
 
 h1 {
 	color: #979B2D;
-	font-size:rem-calc(48);
-	line-height:rem-calc(18);
+	font-size:rem-calc(38);
+	line-height:rem-calc(10);
 	padding-left:rem-calc(20);
 	
 }
 
+
 h2 {
 	color: #285D4D;
 	font-weight:bold;
-	font-size:rem-calc(54);
-	line-height:rem-calc(48);
+	font-size:rem-calc(44);
+	line-height:rem-calc(38);
 }
 h3{
 	color: #fff;
@@ -24,11 +26,59 @@ h3{
 	margin-bottom:rem-calc(36);
 	padding-left:rem-calc(20);
 }
-img.pleca_titulo{width:rem-calc(165);}
+h4{
+	color: #979B2D;
+	font-weight:bold;
+	font-size:rem-calc(28);
+	margin-bottom:rem-calc(36);
+	padding-left:rem-calc(20);
+}
+h5{
+	color: #979B2D;
+	font-size:rem-calc(24);
+	margin-bottom:rem-calc(20);
+}
+img.pleca_titulo_pag4{width:rem-calc(175);}
+img.pleca_titulo_pag6{width:rem-calc(300);}
 
 span.pleca_gris{background-color:#E7E2E0; color:#8E7C71; font-size:rem-calc(10); }
 
 p.parrafo_verde{color: #979B2D;font-size:rem-calc(14);}
+
+p.parrafo_blanco{color: $white;}
+
+p.bold{font-weight: $global-weight-bold}
+
+p.small{font-size:rem-calc(14); line-height:rem-calc(7);}
+
+.row_verde{ background-color:#979B2D; padding:rem-calc(20);}
+.row_verde_fuerte{background-color:#285D4D; padding:rem-calc(20);}
+
+ul.bullet_blanco{color:#fff; list-style-image: url('../assets/img/bullet_blanco.png'); margin-top:rem-calc(20);
+	li{padding-bottom:rem-calc(10)}
+}
+ul.bullet_blanco_letras{color:#fff; list-style-type: upper-alpha; margin-top:rem-calc(20);
+	li{padding-bottom:rem-calc(10)}
+}
+ul.bullet_letras{list-style-type: upper-alpha; margin-top:rem-calc(20);
+	li{padding-bottom:rem-calc(20)}
+}
+.txt_verde_gde{color: #979B2D;font-size:rem-calc(21);}
+
+
+div.espacio{height:rem-calc(40);}
+div.espacio_20{height:rem-calc(20);}
+
+.padding_20{padding:rem-calc(20)}
+
+.sin_padding{padding:0;}
+
+.centrar{text-align:center;}
+
+.margen_abajo{margin-bottom:rem-calc(20)}
+.margen_abajo_40{margin-bottom:rem-calc(40)}
+
+.blanco {color: #fff;}
 
 table.tabla{
 	width:100%;
@@ -52,11 +102,17 @@ table.tabla{
 	}	
 }
 
-/**Estilos pag4**/
+
+
+
+/**Estilos paginas**/
+
+img.logo_pochteca{margin-bottom:rem-calc(20);}
 
 
 div.graficas{
 	margin-bottom:rem-calc(80);
+	padding:rem-calc(15);
 }
 
 .row_verde_claro{
@@ -64,11 +120,7 @@ div.graficas{
 	height:rem-calc(12);
 }
 
-.row_verde{
-	background-color:#979B2D;
-	padding:rem-calc(20);
-	margin-bottom:rem-calc(40)
-}
+
 
 div.datos_relevantes{
 	margin:0 auto;
@@ -90,3 +142,12 @@ div.caja_verde_fuerte{
 		font-size:rem-calc(19);
 	}
 }
+
+div.gota{text-align:center;margin-bottom:rem-calc(20);}
+div.gota ul{list-style-type:none;margin-left:0;}
+p.bg_gota{background:url(../assets/img/pochteca_3.png) center top no-repeat; margin-bottom:rem-calc(20);
+     min-height:221px; color:#979B2D; font-size:rem-calc(34); padding-top:rem-calc(120) }
+
+
+img.firma{border-bottom:1px solid #000; margin-bottom:rem-calc(10) }
+
