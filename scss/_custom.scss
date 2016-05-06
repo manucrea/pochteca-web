@@ -38,6 +38,8 @@ h5{
 	font-size:rem-calc(24);
 	margin-bottom:rem-calc(20);
 }
+
+
 img.pleca_titulo_pag4{width:rem-calc(175);}
 img.pleca_titulo_pag6{width:rem-calc(300);}
 
@@ -51,6 +53,10 @@ p.bold{font-weight: $global-weight-bold}
 
 p.small{font-size:rem-calc(14); line-height:rem-calc(7);}
 
+.blanco {color: #fff;}
+
+.txt_verde_gde{color: #979B2D;font-size:rem-calc(21);}
+
 .row_verde{ background-color:#979B2D; padding:rem-calc(20);}
 .row_verde_fuerte{background-color:#285D4D; padding:rem-calc(20);}
 
@@ -63,13 +69,17 @@ ul.bullet_blanco_letras{color:#fff; list-style-type: upper-alpha; margin-top:rem
 ul.bullet_letras{list-style-type: upper-alpha; margin-top:rem-calc(20);
 	li{padding-bottom:rem-calc(20)}
 }
-.txt_verde_gde{color: #979B2D;font-size:rem-calc(21);}
+ul.bullet_limpio{list-style-type: none; margin-top:rem-calc(20);
+	li{padding-bottom:rem-calc(10)}
+}
+
 
 
 div.espacio{height:rem-calc(40);}
 div.espacio_20{height:rem-calc(20);}
 
 .padding_20{padding:rem-calc(20)}
+.padding_left{padding-left:rem-calc(20)}
 
 .sin_padding{padding:0;}
 
@@ -78,7 +88,7 @@ div.espacio_20{height:rem-calc(20);}
 .margen_abajo{margin-bottom:rem-calc(20)}
 .margen_abajo_40{margin-bottom:rem-calc(40)}
 
-.blanco {color: #fff;}
+
 
 table.tabla{
 	width:100%;
