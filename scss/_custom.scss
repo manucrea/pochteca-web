@@ -1,173 +1,3 @@
-<<<<<<< HEAD
-=======
-// colors
-$white: #FFFFFF;
-$base: #575756; //Color texto en general
-$green: #285d4d; //Color verde base
-$green2: #527568; //Variante clara verde base
-$green3: #7d9287; //Variante clara verde base
-$lime: #a2a340; //Color secundario verde lima
-$lime2: #b8b66a; //Variante clara verde lima
-$lime3: #d7d4ab; //Variante clara verde lima secundario
-$grayP: #8E7C71; //Color texto para indicadores
-$grayB: #E7E2E0; //Color background para indicadores
-
-@mixin smooth {
-  transition: all .3s;
-  -moz-transition: all .3s;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  -ms-transition:all .3s;
-}
-
-// Fonts
-@font-face {
-  font-family: 'quarkbold';
-  src: url('../assets/fonts/quark/quark-bold-webfont.eot');
-  src: url('../assets/fonts/quark/quark-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../assets/fonts/quark/quark-bold-webfont.woff2') format('woff2'),
-       url('../assets/fonts/quark/quark-bold-webfont.woff') format('woff'),
-       url('../assets/fonts/quark/quark-bold-webfont.ttf') format('truetype'),
-       url('../assets/fonts/quark/quark-bold-webfont.svg#quarkbold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'quarklight';
-  src: url('../assets/fonts/quark/quark-light-webfont.eot');
-  src: url('../assets/fonts/quark/quark-light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../assets/fonts/quark/quark-light-webfont.woff2') format('woff2'),
-       url('../assets/fonts/quark/quark-light-webfont.woff') format('woff'),
-       url('../assets/fonts/quark/quark-light-webfont.ttf') format('truetype'),
-       url('../assets/fonts/quark/quark-light-webfont.svg#quarklight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-// Manu
-
-body {
-	font-family: 'quarklight';
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'quarkbold';
-}
-
-p {
-	font-family: 'quarklight';
-}
-
-.top-bar {
-	background-color: $green;
-	.logo {
-		display: inline-block;
-	}
-	.title {
-		display: inline-block;
-		color: $white;
-		vertical-align: bottom;
-	}
-	#btnMain {
-		background-color: $green;
-		font-size: 1em;
-  	margin: 0.5em 0 0 0;
-  	i {
-  		font-size: 2em;
-  		vertical-align: middle;
-  	}
-	}
-}
-
-footer {
-	background-color: $green;
-	color: $white;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	padding: 0.5em;
-	.left {
-		float: left;
-	}
-	.right {
-		float: right;
-		ul {
-			list-style: none;
-			padding: 0;
-			margin: 0;
-			li {
-				display: inline-block;
-				border-right: 1px solid;
-				padding: 0 0.75em;
-				a {
-					color: $white;
-					@include smooth;
-					&:hover {
-						color: $lime;
-					}
-				}
-				&:last-child {
-					border: none;
-				}
-			}
-		}
-	}
-	p {
-		margin: 0;
-	}
-}
-
-// .off-canvas-wrapper {
-// 	height: 100%;
-// }
-.off-canvas-wrapper-inner {
-	height: 100%;
-}
-.off-canvas {
-	height: 100%;
-	background-color: $green;
-	.close-button {
-		color: $white;
-		font-size: 1.75em;
-	}
-	ul {
-		padding: 2em 0 0 1em;
-		list-style-image: url('../assets/img/bullet.png');
-		li {
-			a {
-				color: $white;
-				font-family: 'quarkbold';
-				@include smooth;
-				&:hover {
-					color: $lime;
-				}
-			}
-		}
-		ul {
-			padding: 0 0 1em 0;
-			font-size: 0.85em;
-			li {
-				height: 2em;
-				a {
-					font-family: 'quarklight';
-				}
-			}
-		}
-	}
-}
-
-.home {
-	background-color: $lime;
-	text-align: center;
-	padding: 2em 0;
-}
-
-// end Manu
-
->>>>>>> origin/master
 div.cabecera{
 	margin-top:rem-calc(40);
 	margin-bottom:rem-calc(40);
@@ -208,11 +38,6 @@ h5{
 	font-size:rem-calc(24);
 	margin-bottom:rem-calc(20);
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/master
 img.pleca_titulo_pag4{width:rem-calc(175);}
 img.pleca_titulo_pag6{width:rem-calc(300);}
 
@@ -226,13 +51,6 @@ p.bold{font-weight: $global-weight-bold}
 
 p.small{font-size:rem-calc(14); line-height:rem-calc(7);}
 
-<<<<<<< HEAD
-=======
-.blanco {color: #fff;}
-
-.txt_verde_gde{color: #979B2D;font-size:rem-calc(21);}
-
->>>>>>> origin/master
 .row_verde{ background-color:#979B2D; padding:rem-calc(20);}
 .row_verde_fuerte{background-color:#285D4D; padding:rem-calc(20);}
 
@@ -245,24 +63,13 @@ ul.bullet_blanco_letras{color:#fff; list-style-type: upper-alpha; margin-top:rem
 ul.bullet_letras{list-style-type: upper-alpha; margin-top:rem-calc(20);
 	li{padding-bottom:rem-calc(20)}
 }
-<<<<<<< HEAD
 .txt_verde_gde{color: #979B2D;font-size:rem-calc(21);}
-=======
-ul.bullet_limpio{list-style-type: none; margin-top:rem-calc(20);
-	li{padding-bottom:rem-calc(10)}
-}
-
->>>>>>> origin/master
 
 
 div.espacio{height:rem-calc(40);}
 div.espacio_20{height:rem-calc(20);}
 
 .padding_20{padding:rem-calc(20)}
-<<<<<<< HEAD
-=======
-.padding_left{padding-left:rem-calc(20)}
->>>>>>> origin/master
 
 .sin_padding{padding:0;}
 
@@ -271,11 +78,7 @@ div.espacio_20{height:rem-calc(20);}
 .margen_abajo{margin-bottom:rem-calc(20)}
 .margen_abajo_40{margin-bottom:rem-calc(40)}
 
-<<<<<<< HEAD
 .blanco {color: #fff;}
-=======
-
->>>>>>> origin/master
 
 table.tabla{
 	width:100%;
