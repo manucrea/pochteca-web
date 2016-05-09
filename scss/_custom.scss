@@ -179,9 +179,13 @@ h1 {
 	font-size:rem-calc(38);
 	line-height:rem-calc(10);
 	padding-left:rem-calc(20);
-	
 }
-
+.h1_32 {
+	color: #a2a340; 
+	font-size:rem-calc(32);
+	line-height:rem-calc(10);
+	padding-left:rem-calc(20);
+}
 
 h2 {
 	color: #285D4D;
@@ -222,11 +226,14 @@ p.bold{font-weight: $global-weight-bold;}
 
 .bold{font-weight: $global-weight-bold;}
 
+.may{text-transform:uppercase;}
+
 p.small{font-size:rem-calc(14); line-height:rem-calc(7);}
 
 .blanco {color: #ffffff;}
 
 .verde_fuerte{color: #285D4D;}
+.verde_claro{color: #a2a340;}
 
 .txt_pequeño_12{font-size:rem-calc(12);}
 .txt_mediano{font-size:rem-calc(24);}
@@ -238,6 +245,8 @@ p.small{font-size:rem-calc(14); line-height:rem-calc(7);}
 .row_verde{ background-color:#a2a340; padding:rem-calc(20);}
 .row_verde_fuerte{background-color:#285D4D; padding:rem-calc(20);}
 .bg_blanco{background-color:#fff;}
+.bg_verde{background-color:#a2a340;}
+.bg_gris {background-color: #f2f2f2;}
 
 .borde_punteado_verde{border-bottom:2px dashed #a2a340; }
 
@@ -256,6 +265,7 @@ ul.bullet_letras{list-style-type: upper-alpha; margin-top:rem-calc(20);
 ul.bullet_limpio{list-style-type: none; margin-top:rem-calc(20);
 	li{padding-bottom:rem-calc(10)}
 }
+ul.bullet_number{list-style: decimal;}
 
 
 
@@ -269,6 +279,7 @@ div.espacio_80{height:rem-calc(80); display:block}
 .padding_arriba_40{ margin-top:rem-calc(40);}
 
 .sin_padding{padding:0;}
+.sin_margin{margin:0;}
 
 .centrar{text-align:center;}
 
@@ -297,6 +308,7 @@ table.tabla{
 		font-weight:bold;
 	}	
 }
+
 
 
 
