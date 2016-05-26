@@ -58,9 +58,14 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	font-family: 'quarklight';
 }
-
+.off-canvas-content {
+	padding-top: 7em;
+}
 .top-bar {
 	background-color: $green;
+	position: fixed;
+	width: 100%;
+	top: 0;
 	.logo {
 		display: inline-block;
 	}
@@ -204,7 +209,7 @@ h4{
 	color: #a2a340;
 	font-weight:bold;
 	font-size:rem-calc(28);
-	margin-bottom:rem-calc(36);
+	// margin-bottom:rem-calc(36);
 	padding-left:rem-calc(20);
 }
 h5{
@@ -242,8 +247,16 @@ p.small{font-size:rem-calc(14); line-height:rem-calc(7);}
 
 .txt_verde_gde{color: #a2a340;font-size:rem-calc(21);}
 
-.row_verde{ background-color:#a2a340; padding:rem-calc(20);}
-.row_verde_fuerte{background-color:#285D4D; padding:rem-calc(20);}
+.row_verde {
+	background-color: #a2a340;
+	padding: rem-calc(20);
+	font-size: 0.875em;
+	&.carta-accionistas {
+		min-height: 465px;
+	}
+}
+.row_verde_fuerte {background-color:#285D4D; padding:rem-calc(20); margin-bottom: 1em;}
+.gp-interes .row_verde_fuerte {margin-bottom: 0;}
 .bg_blanco{background-color:#fff;}
 .bg_verde{background-color:#a2a340;}
 .bg_gris {background-color: #f2f2f2;}
@@ -342,8 +355,8 @@ div.caja_verde_fuerte{
 	background-color:#285D4D;
 	color:#fff;
 	padding:rem-calc(40 10);
-	border-top-right-radius: rem-calc(20);
-	border-bottom-left-radius: rem-calc(20);
+	border-top-right-radius: rem-calc(70);
+	border-bottom-left-radius: rem-calc(70);
 	margin-bottom:rem-calc(40);
 			
 	div span{
@@ -357,8 +370,8 @@ div.caja_verde_claro{
 	background-color:#a2a340;
 	color:#fff;
 	padding:rem-calc(10);
-	border-top-right-radius: rem-calc(20);
-	border-bottom-left-radius: rem-calc(20);
+	border-top-right-radius: rem-calc(70);
+	border-bottom-left-radius: rem-calc(70);
 	margin-bottom:rem-calc(40);
 			
 	div span{
@@ -366,14 +379,38 @@ div.caja_verde_claro{
 	}
 }
 
-div.gota{text-align:center;margin-bottom:rem-calc(20);}
-div.gota ul{list-style-type:none;margin-left:0;}
-p.bg_gota{background:url(../assets/img/pochteca_3.png) center top no-repeat; margin-bottom:rem-calc(20);
-     min-height:221px; color:#a2a340; font-size:rem-calc(34); padding-top:rem-calc(120) }
+div.gota {
+	text-align: center;
+	margin-bottom: rem-calc(20);
+	.int {
+		background:url(../assets/img/pochteca_3.png) center top no-repeat;
+		max-width: 233px;
+		min-height: 280px;
+		margin: 0 auto;
+	}
+	p {
+		color: $white;
+		line-height: 1.25em;
+		padding: 2em;
+		&.bg_gota{
+		    color: #a2a340;
+		    font-size: rem-calc(30);
+		    padding: 3.825rem 0 0;
+		    margin: 0;
+		}
+	} 
+	ul {
+		list-style-type: none;
+		margin-left: 0;
+		color: $white;
+		line-height: 1.25em;
+		padding: 2em;
+	}
+}
 
 
 img.firma{border-bottom:1px solid #000; margin-bottom:rem-calc(10) }
 
 .contenedor {
-	padding-bottom: 2em;
+	padding-bottom: 4em;
 }
