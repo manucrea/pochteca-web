@@ -52,24 +52,3 @@
 @import 'custom';
 
 
-// colors
-$white: #FFFFFF;
-$base: #575756; //Color texto en general
-$green: #285d4d; //Color verde base
-$green2: #527568; //Variante clara verde base
-$green3: #7d9287; //Variante clara verde base
-$lime: #a2a340; //Color secundario verde lima
-$lime2: #b8b66a; //Variante clara verde lima
-$lime3: #d7d4ab; //Variante clara verde lima secundario
-$grayP: #8E7C71; //Color texto para indicadores
-$grayB: #E7E2E0; //Color background para indicadores
-
-@mixin smooth {
-  transition: all .3s;
-  -moz-transition: all .3s;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  -ms-transition:all .3s;
-}
-
-
