@@ -72,12 +72,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	font-family: 'quarklight';
 }
-<<<<<<< HEAD
 b {
 	font-family: 'quarkbold';
 }
-=======
->>>>>>> origin/master
 .off-canvas-content {
 	padding-top: 7em;
 }
@@ -267,14 +264,9 @@ p.small{font-size:rem-calc(14); line-height:rem-calc(7);}
 .txt_mediano{font-size:rem-calc(24);}
 .txt_grande{font-size:rem-calc(18);font-family: 'Stockholm-Slab';}
 .txt_grande_40{
-<<<<<<< HEAD
 	font-size:rem-calc(35);
 	font-family: 'Stockholm-Slab';
 	line-height: 2.5rem;
-=======
-	font-size:rem-calc(40);
-	font-family: 'Stockholm-Slab';
->>>>>>> origin/master
 	small {
 		font-size: 50%;
 	}
@@ -288,15 +280,12 @@ p.small{font-size:rem-calc(14); line-height:rem-calc(7);}
 	font-size: 0.875em;
 	&.carta-accionistas {
 		min-height: 465px;
-<<<<<<< HEAD
 		li {
 			color: rgba($white, 0.75);
 			b {
 				color: $white;
 			}
 		}
-=======
->>>>>>> origin/master
 	}
 }
 .row_verde_fuerte {background-color:#285D4D; padding:rem-calc(20); margin-bottom: 1em;}
@@ -374,10 +363,7 @@ table.tabla{
 
 	td.bold{
 		font-weight:bold;
-<<<<<<< HEAD
 		font-family: 'quarkbold';
-=======
->>>>>>> origin/master
 	}
 	tr {
 		&:nth-child(2n+1) {
@@ -424,11 +410,7 @@ div.caja_verde_fuerte{
 	padding:rem-calc(40 10);
 	border-top-right-radius: rem-calc(70);
 	border-bottom-left-radius: rem-calc(70);
-<<<<<<< HEAD
 	margin-bottom: rem-calc(40);
-=======
-	margin-bottom:rem-calc(40);
->>>>>>> origin/master
 			
 	div span{
 		font-size: rem-calc(19);
@@ -436,7 +418,6 @@ div.caja_verde_fuerte{
 }
 
 div.caja_verde_claro{
-<<<<<<< HEAD
 	font-size: rem-calc(16);
 	text-align: center;
 	background-color: #a2a340;
@@ -445,16 +426,6 @@ div.caja_verde_claro{
 	border-top-right-radius: rem-calc(70);
 	border-bottom-left-radius: rem-calc(70);
 	margin-bottom: rem-calc(40);
-=======
-	font-size:rem-calc(16);
-	text-align:center;
-	background-color:#a2a340;
-	color:#fff;
-	padding:rem-calc(10);
-	border-top-right-radius: rem-calc(70);
-	border-bottom-left-radius: rem-calc(70);
-	margin-bottom:rem-calc(40);
->>>>>>> origin/master
 			
 	div span{
 		font-size: rem-calc(19);
@@ -506,12 +477,9 @@ img.firma{border-bottom:1px solid #000; margin-bottom:rem-calc(10) }
 	.row_verde {
 		padding: 0.75rem;
 	}
-<<<<<<< HEAD
 }
 ul {
 	ul {
 		list-style-type: circle;
 	}
-=======
->>>>>>> origin/master
 }
